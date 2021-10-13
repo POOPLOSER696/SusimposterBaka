@@ -10,20 +10,25 @@ client.on('ready', () =>{
 client.on('message', async message =>{
     if(message.author.bot) return;
     if(message.author.id === '506226451339542541') {
-        if(message.content.toLowerCase().includes('peter griffin')){
+        if(message.content.toLowerCase().includes('peter griffin')) {
             console.log("You said Peter in a server!");
             message.channel.send('Peter Griffin I am him hehehe.');
         }
         
     }
-    if(message.author.id !== '506226451339542541'){
-        if(message.content.toLowerCase().includes('peter griffin i am him')){
+    if(message.author.id !== '506226451339542541') {
+        if(message.content.toLowerCase().includes('peter griffin i am him')) {
             console.log("someone ELSE TRIED TO SAY PETER GRIFFIN!");
             message.channel.send("Dude. Not cool :unamused: ");
         }
             
     }
-    
+    if(message.author.id !== '506226451339542541') {
+        if(message.content.toLowerCase().includes('burger')) {
+            console.log("peter is hungry");
+            message.channel.send("Can i have burger? :pleading_face::point_right::point_left:");
+        }
+    }
 });
 
 
