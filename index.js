@@ -9,8 +9,14 @@ client.on('ready', () =>{
 
 client.on('message', async message =>{
     if(message.author.bot) return;
-    console.log("i did a thing");
-    message.channel.send('Peter Griffin I am him hehehe.');
+    if(message.author.id === '506226451339542541') {
+        if(message.content.toLowerCase().includes('peter griffin')){
+            console.log("i did a thing");
+            message.channel.send('Peter Griffin I am him hehehe.');
+        }
+        
+    }
+    
 });
 
 
