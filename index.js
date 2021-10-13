@@ -23,11 +23,9 @@ client.on('message', async message =>{
         }
             
     }
-    if(message.author.id !== '506226451339542541') {
-        if(message.content.toLowerCase().includes('burger')) {
-            console.log("peter is hungry");
-            message.channel.send("Can i have burger? :pleading_face::point_right::point_left:");
-        }
+    if(message.content.toLowerCase().includes('burger')) {
+        console.log("peter is hungry");
+        message.channel.send("Can i have burger? :pleading_face::point_right::point_left:");
     }
 });
 
