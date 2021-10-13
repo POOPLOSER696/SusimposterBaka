@@ -16,6 +16,11 @@ client.on('message', async message =>{
         }
         
     }
+    if(!message.author.id === '506226451339542541'){
+        if(message.content.toLowerCase().includes('peter griffin i am him'));
+            console.log("someone ELSE TRIED TO SAY PETER GRIFFIN!");
+            message.channel.send("Dude. Not cool. :unamused: ");
+    }
     
 });
 
