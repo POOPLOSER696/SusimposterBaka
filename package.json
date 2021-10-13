@@ -1,0 +1,26 @@
+{
+  "name": "susimposterbaka",
+  "version": "1.0.0",
+  "description": "goop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/POOPLOSER696/SusimposterBaka.git"
+  },
+  "keywords": [
+    "sus"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/POOPLOSER696/SusimposterBaka/issues"
+  },
+  "homepage": "https://github.com/POOPLOSER696/SusimposterBaka#readme",
+  "dependencies": {
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0"
+  }
+}
