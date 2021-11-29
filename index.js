@@ -27,6 +27,11 @@ client.on('message', async message =>{
         console.log("peter is hungry");
         message.channel.send("Can i have burger? :pleading_face::point_right::point_left:");
     }
+    if(message.content.toLowerCase().includes('i farded')) {
+        console.log("someone farded");
+        message.channel.send("No fard. Only eyes, only shid. No fard.");
+    
+    }
 });
 
 
