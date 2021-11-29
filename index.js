@@ -30,7 +30,14 @@ client.on('message', async message =>{
     if(message.content.toLowerCase().includes('i farded')) {
         console.log("someone farded");
         message.channel.send("No fard. Only eyes, only shid. No fard.");
-    
+    }
+    if(message.content.toLowerCase().includes('i shidded')) {
+        console.log("someone shidded themself");
+        message.channel.send("There is poop. Running down your leg. Seriously im not kidding there's literal poop on your leg. Please clean yourself. You disgusting animal. No fard. and definitly no Shid. 42 approved car so fast you'll fard and shid pant. Thank you.");
+    }
+    if(message.content.toLowerCase().includes('kill yourself')) {
+        console.log("someone said Kill, thats kinda sus");
+        message.channel.send("Right back atcha buddy ;)");
     }
 });
 
